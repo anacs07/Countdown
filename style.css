@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('brisbane.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    opacity: 0.8;
+}
+
+.content{
+    top:50%;
+    position: absolute;
+    transform: translateY(-50%) ;
+    color: #fff;
+    margin: 20px;
+
+}
+
+.content h1{
+    font-size: 64px ;
+    font-weight: 600;
+}
+
+.content h1 span{
+    color: #ff3753;
+}
+.launch-time{
+    display: flex;
+
+}
+.launch-time div{
+    flex-basis: 100px ;
+ 
+    
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+     
+}
+
+.blackpower{
+    width: 150px;
+    position: absolute;
+    right: 10%;
+    bottom:0;
+    
+
+
+}
+   
+footer{
+    transform: translate(400%);
+    position: absolute;
+    color: black; 
+    font-size: 20px;
+    margin-top: 80px;
+}
